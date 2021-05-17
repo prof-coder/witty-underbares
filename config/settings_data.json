@@ -1,0 +1,1566 @@
+{
+  "current": {
+    "text_color": "#000000",
+    "bg_color": "#fffffb",
+    "secondary_bg_color": "#c7d9f0",
+    "accent_bright": "#88aacd",
+    "accent_secondary": "#000000",
+    "site_border_color": "rgba(0,0,0,0)",
+    "link_color": "#000000",
+    "link_hover_color": "#88aacd",
+    "header_bg": "#fffffb",
+    "header_link": "#000000",
+    "header_link_hover": "#88aacd",
+    "menu_bg_color": "#fffffb",
+    "menu_border_color": "rgba(0,0,0,0)",
+    "menu_link_color": "#000000",
+    "menu_link_hover_color": "#88aacd",
+    "submenu_bg_color": "#fffffb",
+    "submenu_link_color": "#000000",
+    "submenu_link_hover_color": "#88aacd",
+    "menu_transparent_color": "#fffffb",
+    "footer_bg": "#fffffb",
+    "footer_text": "#000000",
+    "footer_link": "#000000",
+    "footer_link_hover": "#88aacd",
+    "type_heading_font": "poppins_n4",
+    "type_heading_size": 95,
+    "type_base_font": "poppins_n4",
+    "type_body_size": 95,
+    "button_border_radius": 0,
+    "animations_enable": true,
+    "endless_scroll": true,
+    "enable_disqus": false,
+    "disqus_shortname": "",
+    "enable_product_reviews": false,
+    "enable_yotpo": true,
+    "yotpo_ID": "",
+    "instagram_link": "https:\/\/www.instagram.com\/underbares\/",
+    "facebook_link": "",
+    "twitter_link": "",
+    "youtube_link": "",
+    "vimeo_link": "",
+    "pinterest_link": "",
+    "tumblr_link": "",
+    "atom_link": "",
+    "share_facebook": false,
+    "share_twitter": false,
+    "share_pinterest": false,
+    "social_home_image": "",
+    "color_swatches": false,
+    "variant_lines": true,
+    "image_hover_enable": true,
+    "product_grid_aspect_ratio": 1,
+    "sale_tags_enable": true,
+    "sale_background_color": "#88aacd",
+    "sale_text_color": "#fffffb",
+    "quickview_enable": false,
+    "quickview_buybutton_enable": false,
+    "enable_video_looping": false,
+    "show_promo_modal": false,
+    "promo_dev_mode": false,
+    "promo_modal_subtitle": "",
+    "promo_modal_title": "less is always more",
+    "promo_modal_richtext": "<p>when it comes to undergarments and emails<\/p>",
+    "promo_button_text": "JOIN 📬",
+    "promo_image": "",
+    "promo_bg_color": "#ffffff",
+    "promo_text_color": "dark",
+    "favicon": "shopify:\/\/shop_images\/UB-Favicon.png",
+    "checkout_header_image": "shopify:\/\/shop_images\/sky.jpg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Underbares-Primary-Oatmilk_1.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "small",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fffffb",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fffffb",
+    "checkout_heading_font": "Playball",
+    "checkout_body_font": "Lato",
+    "checkout_accent_color": "#88aacd",
+    "checkout_button_color": "#88aacd",
+    "checkout_error_color": "#c85c42",
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "d8803cdb-9a78-4871-84c1-4a36388407d7": {
+            "type": "megamenu",
+            "settings": {
+              "title": "",
+              "title_1": "",
+              "button_1": "",
+              "title_2": "",
+              "button_2": "",
+              "title_3": "",
+              "button_3": "",
+              "title_4": "",
+              "button_4": ""
+            }
+          }
+        },
+        "block_order": [
+          "d8803cdb-9a78-4871-84c1-4a36388407d7"
+        ],
+        "settings": {
+          "logo_image": "shopify:\/\/shop_images\/Underbares-Primary-Azure.png",
+          "logo_image_width": 260,
+          "header_style": "normal",
+          "header_transparent_home": true,
+          "header_transparent_collection": true,
+          "transparent_logo": "shopify:\/\/shop_images\/Underbares-Primary-Oatmilk_1.png",
+          "show_header_social": true,
+          "show_header_search": true,
+          "show_account": true,
+          "message": false,
+          "message_text": "",
+          "message_detail": "",
+          "color_bg": "#88aacd",
+          "color_text": "#ffffff",
+          "menu_primary": "main-menu"
+        }
+      },
+      "product": {
+        "type": "product",
+        "blocks": {
+          "product-tab-2": {
+            "type": "tab_richtext",
+            "settings": {
+              "title": "Quality Fabric"
+            }
+          },
+          "1a108871-227b-441a-b6c6-41eafdeab9bf": {
+            "type": "tab_richtext",
+            "settings": {
+              "title": "Ethical Manufacturing"
+            }
+          },
+          "product-tab-1": {
+            "type": "tab_richtext",
+            "settings": {
+              "title": "Care"
+            }
+          }
+        },
+        "block_order": [
+          "product-tab-2",
+          "1a108871-227b-441a-b6c6-41eafdeab9bf",
+          "product-tab-1"
+        ],
+        "settings": {
+          "image_layout": "thumbnails",
+          "product_sticky_enable": true,
+          "show_breadcrumbs": true,
+          "show_share_buttons": false,
+          "product_show_vendor": false,
+          "show_payment_button": true,
+          "show_cart_bar": true,
+          "cart_bar_position": "bottom",
+          "tabs_enable": true,
+          "enable_video_looping": false
+        }
+      },
+      "page-contact": {
+        "type": "page-contact",
+        "blocks": {
+          "contact-1": {
+            "type": "text",
+            "settings": {
+              "title": "Your first and last name"
+            }
+          },
+          "contact-2": {
+            "type": "email",
+            "settings": {
+              "title": "Your email address"
+            }
+          },
+          "contact-3": {
+            "type": "body",
+            "settings": {
+              "title": "Your message"
+            }
+          },
+          "contact-4": {
+            "type": "spacer",
+            "settings": {
+              "line": false
+            }
+          }
+        },
+        "block_order": [
+          "contact-1",
+          "contact-2",
+          "contact-3",
+          "contact-4"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "index-hero": {
+        "type": "index-hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Patricia_-_Homepage.gif",
+          "parallax": false,
+          "height": "screen-height-full",
+          "overlay_opacity": 40,
+          "overlay_color": "#88aacd",
+          "title": "Comfy Essentials",
+          "description": "Made with love in the USA",
+          "flex_align": "align--middle-center",
+          "text_color": "text-light",
+          "transparent": true,
+          "link_text": "FIND YOUR PERFECT FIT",
+          "link": "https:\/\/underbares.typeform.com\/to\/nSY1P8"
+        }
+      },
+      "index-image-with-text": {
+        "type": "index-image-with-text",
+        "settings": {
+          "title": "We do better. So you can do you.",
+          "content": "<p>We believe in embracing our individuality. Our pared-down designs organically move with you, not against you. No more unnatural-looking padding or painful wires, fussy strap adjusters or compressive smoothing. Go ahead, bare your best self. <\/p>",
+          "color": "#fffffb",
+          "background": "#9cadc4",
+          "image": "shopify:\/\/shop_images\/Lauren_f5f3a605-42fc-410e-945c-67721da4db59.jpg",
+          "height": "screen-height-one-half",
+          "image_alignment": "natural",
+          "overlay_opacity": 40,
+          "overlay_color": "#c7d9f0",
+          "button_text": "",
+          "video_link": "",
+          "button_type": "filled",
+          "button_colors": "#ffffff"
+        }
+      },
+      "index-look": {
+        "type": "index-look",
+        "disabled": true,
+        "blocks": {
+          "index-look-0": {
+            "type": "product",
+            "settings": {
+              "product": "everyday-underbares-1",
+              "image": "shopify:\/\/shop_images\/c.jpeg",
+              "position_x": 50,
+              "position_y": 30
+            }
+          }
+        },
+        "block_order": [
+          "index-look-0"
+        ],
+        "settings": {
+          "title": "shop this cozy lewk",
+          "section_bg": "#ffffff",
+          "dot_color": "#ffffff"
+        }
+      },
+      "index-rich-text": {
+        "type": "index-rich-text",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/UB-Madewithlove-Azure.png",
+          "title": "",
+          "text": "",
+          "button_text": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "logo_image_width": 150,
+          "overlay_opacity": 15,
+          "overlay_color": "#000000",
+          "footer_secondary_linklist": "footer",
+          "footer_payment_enable": true,
+          "show_locale_selector": false,
+          "show_currency_selector": false
+        }
+      },
+      "collection": {
+        "type": "collection",
+        "settings": {
+          "enable_sort": false,
+          "filter_mode": "tag",
+          "show_title": true,
+          "show_description": true,
+          "text_color": "text-light",
+          "flex_align": "align--middle-center",
+          "transparent": true,
+          "show_image": true,
+          "banner_layout": "overlay",
+          "height": "screen-height-one-half",
+          "parallax": false,
+          "overlay_opacity": 0,
+          "overlay_color": "#000000",
+          "grid": 3,
+          "enable_reviews": false,
+          "show_featured_image": false,
+          "featured_image": "shopify:\/\/shop_images\/147A5148_b1daec30-4bc7-4fb0-9c41-b9b72d5657bf.jpg",
+          "featured_heading": "who sews 'em?",
+          "featured_text": "",
+          "featured_button_text": "our makers",
+          "featured_button_link": "shopify:\/\/pages\/our-makers",
+          "featured_color_text": "#ffffff",
+          "featured_color_overlay": "#7dabd0",
+          "featured_overlay_opacity": 50
+        }
+      },
+      "related": {
+        "type": "related",
+        "settings": {
+          "related_products_enable": true,
+          "limit": 4,
+          "product_recommendations_heading": "More Comfy Essentials",
+          "show_recently_viewed": true,
+          "product_recently_limit": 4,
+          "product_recently_heading": "Recently Viewed"
+        }
+      },
+      "1588794886365": {
+        "type": "index-logo-list",
+        "blocks": {
+          "1588794886365-0": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/VOGUE_19ff6300-93b0-4058-8848-4251e327154b.png",
+              "text": "\"This might be the most comfortable bra you will ever wear.\""
+            }
+          },
+          "1588794886365-1": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/RealSimple_2020.png",
+              "text": "\"This underwire- and hook-free bra is incredibly comfortable.\""
+            }
+          },
+          "1588794886365-3": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/Refinery29_2020.png",
+              "text": "\"...Provide total support while avoiding the oppressive reminder you're wearing a bra at all.\""
+            }
+          },
+          "4811ff8e-6350-46b8-837e-452665d6b7a7": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/WWD.png",
+              "text": "\"Feminine meets chic in Underbares, the D.C.-based start-up known for its nipple-baring bralettes.\""
+            }
+          },
+          "dd2c3837-9843-4176-a616-872aa16f5a03": {
+            "type": "logo-item",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/Daily_Beast_Logo_e9a15290-6e8c-440c-a324-1658c628eac6.png",
+              "text": "\"This is the best ‘bra’ I’ve ever worn, period.\""
+            }
+          }
+        },
+        "block_order": [
+          "1588794886365-0",
+          "1588794886365-1",
+          "1588794886365-3",
+          "4811ff8e-6350-46b8-837e-452665d6b7a7",
+          "dd2c3837-9843-4176-a616-872aa16f5a03"
+        ],
+        "settings": {
+          "title": "",
+          "bg_color": "#fffffb",
+          "logo_opacity": 15
+        }
+      },
+      "list-collections": {
+        "type": "list-collections",
+        "settings": {
+          "display_type": "selected",
+          "title": "Collections",
+          "grid": 4,
+          "rows": 1,
+          "enable_reviews": false,
+          "scroll": "horizontally"
+        }
+      },
+      "1588797087685": {
+        "type": "index-columns",
+        "blocks": {
+          "1588797087685-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Shan_11_11.png",
+              "title": "",
+              "text": "<p>We put you first by learning what you actually want in your top drawer next. We go from there.<\/p>",
+              "button_label": "",
+              "enable_video": false,
+              "video_link": ""
+            }
+          },
+          "1588809524759": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/bts.png",
+              "title": "",
+              "text": "<p>We work with the best partners to design better undergarments. <a href=\"\/pages\/our-makers\" title=\"our makers\">Meet our makers<\/a>.<\/p>",
+              "button_label": "",
+              "enable_video": false,
+              "video_link": ""
+            }
+          },
+          "1588809557300": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Patricia.gif",
+              "title": "",
+              "text": "<p>Together, we rewrite the narrative by showing the world that we&#x27;ll choose our shape and not let anyone choose it for us. There&#x27;s no need to be alarmed, world! <\/p>",
+              "button_label": "",
+              "enable_video": false,
+              "video_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1588797087685-0",
+          "1588809524759",
+          "1588809557300"
+        ],
+        "settings": {
+          "align_text": "text-left",
+          "equalize_height": true,
+          "photo_aspect_ratio": 1
+        }
+      },
+      "cart": {
+        "type": "cart",
+        "settings": {
+          "allow_note": true,
+          "allow_tax_text": false,
+          "custom_tax_text": "",
+          "shipping_calculator": false,
+          "shipping_calculator_default_country": "United States",
+          "cart_show_additional_buttons": false
+        }
+      },
+      "1589392233860": {
+        "type": "instafeed",
+        "settings": {
+          "heading_font": "lato_n4",
+          "heading_size": 20,
+          "feed_width": 100,
+          "html_area": ""
+        }
+      },
+      "1591729990346": {
+        "type": "index-blog",
+        "disabled": true,
+        "settings": {
+          "blog_name": "bloggin",
+          "title": "Bloggin'",
+          "blog_text": "Less is more, but when more is more we share it here.",
+          "grid": 2,
+          "rows": 1,
+          "show_author": false,
+          "show_date": false,
+          "show_button": true,
+          "show_tags": false,
+          "overlay_opacity": 15,
+          "overlay_color": "#000000"
+        }
+      },
+      "collectionotamazon": {
+        "type": "collectionotamazon",
+        "settings": {
+          "enable_sort": false,
+          "filter_mode": "tag",
+          "show_title": false,
+          "show_description": true,
+          "text_color": "text-dark",
+          "flex_align": "align--middle-center",
+          "transparent": false,
+          "show_image": false,
+          "banner_layout": "overlay",
+          "height": "screen-height-one-third",
+          "parallax": false,
+          "overlay_opacity": 0,
+          "overlay_color": "#000",
+          "grid": 3,
+          "enable_reviews": false,
+          "show_featured_image": false,
+          "featured_image": "",
+          "featured_heading": "Use this image showcase promotional content.",
+          "featured_text": "<p>Elaborate on it with rich text<p>",
+          "featured_button_text": "Learn More",
+          "featured_button_link": "",
+          "featured_color_text": "#ffffff",
+          "featured_color_overlay": "#222222",
+          "featured_overlay_opacity": 10
+        }
+      },
+      "1593360333829": {
+        "type": "index-hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Patricia_1.jpg",
+          "parallax": false,
+          "height": "screen-height-two-thirds",
+          "overlay_opacity": 45,
+          "overlay_color": "#c7d9f0",
+          "title": "The Organic Cotton Mini Collection",
+          "description": "",
+          "flex_align": "align--middle-center",
+          "text_color": "text-light",
+          "transparent": true,
+          "link_text": "shop the set",
+          "link": "shopify:\/\/collections\/the-organic-cotton-mini-collection"
+        }
+      },
+      "1605017055c573a7ad": {
+        "type": "index-slideshow",
+        "disabled": true,
+        "blocks": {
+          "1605017055c573a7ad-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_6841.jpg",
+              "overlay_opacity": 10,
+              "overlay_color": "#ffffff",
+              "title": "Limited Edition Artist Collab with Eliza Wapner",
+              "description": "",
+              "flex_align": "align--middle-center",
+              "text_color": "text-light",
+              "transparent": true,
+              "link_text": "shop naturally dyed tees",
+              "link": "shopify:\/\/products\/underbares-x-lil-bits-cloth-the-naturally-dyed-organic-cotton-muscle-tee"
+            }
+          },
+          "1605017055c573a7ad-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/62094711669__AE65BCAD-CF4A-4597-9CB4-006F94776C4D.jpg",
+              "overlay_opacity": 10,
+              "overlay_color": "#ffffff",
+              "title": "Inspired by the beach, hand dyed in New Orleans",
+              "description": "",
+              "flex_align": "align--middle-center",
+              "text_color": "text-light",
+              "transparent": true,
+              "link_text": "shop naturally dyed tees",
+              "link": "shopify:\/\/products\/underbares-x-lil-bits-cloth-the-naturally-dyed-organic-cotton-muscle-tee"
+            }
+          },
+          "c05b83e8-4ffb-4233-b2f5-a7b6eaff146b": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_5677.jpg",
+              "overlay_opacity": 10,
+              "overlay_color": "#ffffff",
+              "title": "The Organic Cotton Tee, Elevated",
+              "description": "",
+              "flex_align": "align--middle-center",
+              "text_color": "text-light",
+              "transparent": true,
+              "link_text": "shop naturally dyed tees",
+              "link": "shopify:\/\/products\/underbares-x-lil-bits-cloth-the-naturally-dyed-organic-cotton-muscle-tee"
+            }
+          }
+        },
+        "block_order": [
+          "1605017055c573a7ad-0",
+          "1605017055c573a7ad-1",
+          "c05b83e8-4ffb-4233-b2f5-a7b6eaff146b"
+        ],
+        "settings": {
+          "autoplay": false,
+          "autoplay_speed": 4,
+          "height": "screen-height-two-thirds",
+          "show_dots": true
+        }
+      },
+      "productnotamazon": {
+        "type": "productnotamazon",
+        "settings": {
+          "image_layout": "stacked",
+          "product_sticky_enable": true,
+          "show_breadcrumbs": true,
+          "show_share_buttons": true,
+          "product_show_vendor": false,
+          "show_payment_button": true,
+          "show_cart_bar": true,
+          "cart_bar_position": "bottom",
+          "tabs_enable": false,
+          "enable_video_looping": false
+        }
+      },
+      "161410316519e56e25": {
+        "type": "index-products",
+        "settings": {
+          "featured_collection": "underbares",
+          "title": "Pared-down undergarments, perfected for you.",
+          "grid": 6,
+          "rows": 1,
+          "enable_reviews": false,
+          "scroll": "horizontally",
+          "arrows_style": "dark"
+        }
+      }
+    },
+    "content_for_index": [
+      "index-hero",
+      "1588794886365",
+      "161410316519e56e25",
+      "index-image-with-text",
+      "1588797087685",
+      "1593360333829",
+      "index-rich-text",
+      "1605017055c573a7ad",
+      "1591729990346",
+      "1589392233860"
+    ]
+  },
+  "presets": {
+    "Clean": {
+      "text_color": "#545454",
+      "bg_color": "#ffffff",
+      "secondary_bg_color": "#F7F7F7",
+      "accent_bright": "#b1945c",
+      "accent_secondary": "#8191a4",
+      "site_border_color": "#F0F0F0",
+      "link_color": "#545454",
+      "link_hover_color": "#b1945c",
+      "header_bg": "#ffffff",
+      "header_link": "#545454",
+      "header_link_hover": "#b1945c",
+      "menu_bg_color": "#ffffff",
+      "menu_border_color": "#F0F0F0",
+      "menu_link_color": "#545454",
+      "menu_link_hover_color": "#b1945c",
+      "submenu_bg_color": "#ffffff",
+      "submenu_link_color": "#545454",
+      "submenu_link_hover_color": "#c5aa76",
+      "footer_bg": "#ffffff",
+      "footer_text": "#545454",
+      "footer_link": "#545454",
+      "footer_link_hover": "#b1945c",
+      "type_heading_font": "century_gothic_n7",
+      "type_heading_size": 90,
+      "type_base_font": "century_gothic_n4",
+      "type_body_size": 95,
+      "animations_enable": true,
+      "image_hover_enable": true,
+      "sale_tags_enable": true,
+      "sale_background_color": "#be563f",
+      "sale_text_color": "#ffffff",
+      "show_promo_modal": false,
+      "promo_dev_mode": false,
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Open Sans",
+      "checkout_body_font": "Open Sans",
+      "checkout_accent_color": "#c5aa76",
+      "checkout_button_color": "#c5aa76",
+      "checkout_error_color": "#c85c42",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "show_header_social": true,
+            "show_header_search": true,
+            "show_account": true,
+            "message": false,
+            "color_bg": "#efeeec",
+            "color_text": "#545454",
+            "menu_primary": "main-menu"
+          }
+        },
+        "product": {
+          "type": "product",
+          "blocks": {
+            "product-tab-1": {
+              "type": "tab_richtext",
+              "settings": {
+                "title": "First"
+              }
+            },
+            "product-tab-2": {
+              "type": "tab_richtext",
+              "settings": {
+                "title": "Second"
+              }
+            },
+            "product-tab-3": {
+              "type": "tab_richtext",
+              "settings": {
+                "title": "Third"
+              }
+            }
+          },
+          "block_order": [
+            "product-tab-1",
+            "product-tab-2",
+            "product-tab-3"
+          ],
+          "settings": {
+            "image_layout": "stacked",
+            "product_sticky_enable": true,
+            "show_breadcrumbs": true,
+            "show_share_buttons": true,
+            "product_show_vendor": false,
+            "show_payment_button": true,
+            "tabs_enable": true
+          }
+        },
+        "page-contact": {
+          "type": "page-contact",
+          "blocks": {
+            "contact-1": {
+              "type": "text",
+              "settings": {
+                "title": "Full Name"
+              }
+            },
+            "contact-2": {
+              "type": "email",
+              "settings": {
+                "title": "Email"
+              }
+            },
+            "contact-3": {
+              "type": "body",
+              "settings": {
+                "title": "Message"
+              }
+            },
+            "contact-4": {
+              "type": "spacer",
+              "settings": {
+                "line": false
+              }
+            },
+            "contact-5": {
+              "type": "formHeading",
+              "settings": {
+                "title": "Optional:"
+              }
+            },
+            "contact-6": {
+              "type": "checkbox",
+              "settings": {
+                "title": "Subscribe to the newsletter"
+              }
+            },
+            "contact-7": {
+              "type": "select",
+              "settings": {
+                "title": "How did you hear about us:",
+                "label-one": "- Pick an option -",
+                "label-two": "Instagram \/ Facebook",
+                "label-three": "Web search",
+                "label-four": "Print Ad",
+                "label-five": "From a friend",
+                "label-six": ""
+              }
+            }
+          },
+          "block_order": [
+            "contact-1",
+            "contact-2",
+            "contact-3",
+            "contact-4",
+            "contact-5",
+            "contact-6",
+            "contact-7"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "index-hero": {
+          "type": "index-hero",
+          "settings": {
+            "parallax": false,
+            "height": "screen-height-two-thirds",
+            "overlay_opacity": 0,
+            "flex_align": "align--middle-center",
+            "text_color": "text-dark"
+          }
+        },
+        "index-image-with-text": {
+          "type": "index-image-with-text",
+          "settings": {
+            "color": "#545454",
+            "background": "#f7f7f7",
+            "height": "screen-height-one-half",
+            "overlay_opacity": 0
+          }
+        },
+        "index-map": {
+          "type": "index-map",
+          "settings": {}
+        },
+        "index-slideshow": {
+          "type": "index-slideshow",
+          "blocks": {
+            "index-slideshow-0": {
+              "type": "image",
+              "settings": {
+                "overlay_opacity": 0,
+                "text_color": "text-dark"
+              }
+            },
+            "index-slideshow-1": {
+              "type": "image",
+              "settings": {
+                "overlay_opacity": 0,
+                "text_color": "text-dark"
+              }
+            }
+          },
+          "block_order": [
+            "index-slideshow-0",
+            "index-slideshow-1"
+          ],
+          "settings": {
+            "autoplay": false,
+            "autoplay_speed": 8,
+            "height": "screen-height-one-half"
+          }
+        },
+        "index-collections-list": {
+          "type": "index-collections-list",
+          "blocks": {
+            "index-collections-list-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "index-collections-list-1": {
+              "type": "collection",
+              "settings": {}
+            },
+            "index-collections-list-2": {
+              "type": "collection",
+              "settings": {}
+            },
+            "index-collections-list-3": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "index-collections-list-0",
+            "index-collections-list-1",
+            "index-collections-list-2",
+            "index-collections-list-3"
+          ],
+          "settings": {
+            "title": "Collections"
+          }
+        },
+        "index-background-video": {
+          "type": "index-background-video",
+          "settings": {
+            "overlay_opacity": 65
+          }
+        },
+        "index-look": {
+          "type": "index-look",
+          "blocks": {
+            "index-look-0": {
+              "type": "product",
+              "settings": {}
+            },
+            "index-look-1": {
+              "type": "product",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "index-look-0",
+            "index-look-1"
+          ],
+          "settings": {}
+        },
+        "index-testimonials": {
+          "type": "index-testimonials",
+          "blocks": {
+            "index-testimonial-0": {
+              "type": "testimonial",
+              "settings": {
+                "title": "Mark Corrigan"
+              }
+            },
+            "index-testimonial-1": {
+              "type": "testimonial",
+              "settings": {
+                "title": "Jeremy Usborne"
+              }
+            }
+          },
+          "block_order": [
+            "index-testimonial-0",
+            "index-testimonial-1"
+          ],
+          "settings": {}
+        },
+        "index-products": {
+          "type": "index-products",
+          "settings": {}
+        },
+        "index-blog": {
+          "type": "index-blog",
+          "settings": {}
+        },
+        "index-rich-text": {
+          "type": "index-rich-text",
+          "settings": {}
+        },
+        "index-newsletter": {
+          "type": "index-newsletter",
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "index-hero",
+        "index-collections-list",
+        "index-image-with-text",
+        "index-products",
+        "index-testimonials",
+        "index-map",
+        "index-background-video",
+        "index-rich-text",
+        "index-slideshow",
+        "index-blog",
+        "index-look",
+        "index-newsletter"
+      ]
+    },
+    "Modern": {
+      "text_color": "#2b2b2b",
+      "bg_color": "#ffffff",
+      "secondary_bg_color": "#f7f9fa",
+      "accent_bright": "#007efc",
+      "accent_secondary": "#2B2B2B",
+      "site_border_color": "#f3f3f3",
+      "link_color": "#2b333b",
+      "link_hover_color": "#007efc",
+      "header_bg": "#ffffff",
+      "header_link": "#3b434b",
+      "header_link_hover": "#007efc",
+      "menu_bg_color": "#2b2b2b",
+      "menu_border_color": "#2b2b2b",
+      "menu_link_color": "#ffffff",
+      "menu_link_hover_color": "#c8e4f2",
+      "submenu_bg_color": "#2b2b2b",
+      "submenu_link_color": "#ffffff",
+      "submenu_link_hover_color": "#c8e4f2",
+      "footer_bg": "#1f1f1f",
+      "footer_text": "#ffffff",
+      "footer_link": "#e1e1e1",
+      "footer_link_hover": "#808080",
+      "type_heading_font": "monotype_news_gothic_n4",
+      "type_heading_size": 100,
+      "type_base_font": "monotype_news_gothic_n4",
+      "type_body_size": 95,
+      "animations_enable": false,
+      "image_hover_enable": false,
+      "sale_tags_enable": true,
+      "sale_background_color": "#ed6161",
+      "sale_text_color": "#ffffff",
+      "show_promo_modal": false,
+      "promo_dev_mode": false,
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Open Sans",
+      "checkout_body_font": "Open Sans",
+      "checkout_accent_color": "#007efc",
+      "checkout_button_color": "#007efc",
+      "checkout_error_color": "#ed6161",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "show_header_social": true,
+            "show_header_search": true,
+            "show_account": true,
+            "message": false,
+            "color_bg": "#efeeec",
+            "color_text": "#545454",
+            "menu_primary": "main-menu"
+          }
+        },
+        "product": {
+          "type": "product",
+          "blocks": {
+            "product-tab-1": {
+              "type": "tab_richtext",
+              "settings": {
+                "title": "First"
+              }
+            },
+            "product-tab-2": {
+              "type": "tab_richtext",
+              "settings": {
+                "title": "Second"
+              }
+            },
+            "product-tab-3": {
+              "type": "tab_richtext",
+              "settings": {
+                "title": "Third"
+              }
+            }
+          },
+          "block_order": [
+            "product-tab-1",
+            "product-tab-2",
+            "product-tab-3"
+          ],
+          "settings": {
+            "image_layout": "thumbnails",
+            "product_sticky_enable": false,
+            "show_breadcrumbs": true,
+            "show_share_buttons": false,
+            "product_show_vendor": false,
+            "show_payment_button": true,
+            "tabs_enable": false
+          }
+        },
+        "page-contact": {
+          "type": "page-contact",
+          "blocks": {
+            "contact-1": {
+              "type": "text",
+              "settings": {
+                "title": "Full Name"
+              }
+            },
+            "contact-2": {
+              "type": "email",
+              "settings": {
+                "title": "Email"
+              }
+            },
+            "contact-3": {
+              "type": "body",
+              "settings": {
+                "title": "Message"
+              }
+            },
+            "contact-4": {
+              "type": "spacer",
+              "settings": {
+                "line": false
+              }
+            },
+            "contact-5": {
+              "type": "formHeading",
+              "settings": {
+                "title": "Optional:"
+              }
+            },
+            "contact-6": {
+              "type": "checkbox",
+              "settings": {
+                "title": "Subscribe to the newsletter"
+              }
+            },
+            "contact-7": {
+              "type": "select",
+              "settings": {
+                "title": "How did you hear about us:",
+                "label-one": "- Pick an option -",
+                "label-two": "Instagram \/ Facebook",
+                "label-three": "Web search",
+                "label-four": "Print Ad",
+                "label-five": "From a friend",
+                "label-six": ""
+              }
+            }
+          },
+          "block_order": [
+            "contact-1",
+            "contact-2",
+            "contact-3",
+            "contact-4",
+            "contact-5",
+            "contact-6",
+            "contact-7"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "index-hero": {
+          "type": "index-hero",
+          "settings": {
+            "parallax": false,
+            "height": "screen-height-two-thirds",
+            "overlay_opacity": 0,
+            "flex_align": "align--middle-center",
+            "text_color": "text-dark"
+          }
+        },
+        "index-image-with-text": {
+          "type": "index-image-with-text",
+          "settings": {
+            "color": "#282c2e",
+            "background": "#f7f9fa",
+            "height": "screen-height-one-half",
+            "overlay_opacity": 0
+          }
+        },
+        "index-map": {
+          "type": "index-map",
+          "settings": {}
+        },
+        "index-slideshow": {
+          "type": "index-slideshow",
+          "blocks": {
+            "index-slideshow-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "index-slideshow-1": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "index-slideshow-0",
+            "index-slideshow-1"
+          ],
+          "settings": {
+            "autoplay": false,
+            "autoplay_speed": 8,
+            "height": "screen-height-one-half"
+          }
+        },
+        "index-collections-list": {
+          "type": "index-collections-list",
+          "blocks": {
+            "index-collections-list-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "index-collections-list-1": {
+              "type": "collection",
+              "settings": {}
+            },
+            "index-collections-list-2": {
+              "type": "collection",
+              "settings": {}
+            },
+            "index-collections-list-3": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "index-collections-list-0",
+            "index-collections-list-1",
+            "index-collections-list-2",
+            "index-collections-list-3"
+          ],
+          "settings": {
+            "title": "Collections"
+          }
+        },
+        "index-background-video": {
+          "type": "index-background-video",
+          "settings": {
+            "overlay_opacity": 65
+          }
+        },
+        "index-look": {
+          "type": "index-look",
+          "blocks": {
+            "index-look-0": {
+              "type": "product",
+              "settings": {}
+            },
+            "index-look-1": {
+              "type": "product",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "index-look-0",
+            "index-look-1"
+          ],
+          "settings": {}
+        },
+        "index-testimonials": {
+          "type": "index-testimonials",
+          "blocks": {
+            "index-testimonial-0": {
+              "type": "testimonial",
+              "settings": {
+                "title": "Mark Corrigan"
+              }
+            },
+            "index-testimonial-1": {
+              "type": "testimonial",
+              "settings": {
+                "title": "Jeremy Usborne"
+              }
+            }
+          },
+          "block_order": [
+            "index-testimonial-0",
+            "index-testimonial-1"
+          ],
+          "settings": {}
+        },
+        "index-products": {
+          "type": "index-products",
+          "settings": {}
+        },
+        "index-blog": {
+          "type": "index-blog",
+          "settings": {}
+        },
+        "index-rich-text": {
+          "type": "index-rich-text",
+          "settings": {}
+        },
+        "index-newsletter": {
+          "type": "index-newsletter",
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "index-hero",
+        "index-collections-list",
+        "index-image-with-text",
+        "index-products",
+        "index-testimonials",
+        "index-map",
+        "index-background-video",
+        "index-rich-text",
+        "index-slideshow",
+        "index-blog",
+        "index-look",
+        "index-newsletter"
+      ]
+    },
+    "Bold": {
+      "text_color": "#040f0f",
+      "bg_color": "#ffffff",
+      "secondary_bg_color": "#f7f7f7",
+      "accent_bright": "#248232",
+      "accent_secondary": "#418383",
+      "site_border_color": "#f7f7f7",
+      "link_color": "#418383",
+      "link_hover_color": "#165858",
+      "header_bg": "#040f0f",
+      "header_link": "#ffffff",
+      "header_link_hover": "#cfe0d3",
+      "menu_bg_color": "#040f0f",
+      "menu_border_color": "#040f0f",
+      "menu_link_color": "#ffffff",
+      "menu_link_hover_color": "#cfe0d3",
+      "submenu_bg_color": "#040f0f",
+      "submenu_link_color": "#ffffff",
+      "submenu_link_hover_color": "#7a9f82",
+      "menu_transparent_color": "#ffffff",
+      "footer_bg": "#040f0f",
+      "footer_text": "#ffffff",
+      "footer_link": "#ffffff",
+      "footer_link_hover": "#74937c",
+      "type_heading_font": "cardo_n7",
+      "type_heading_size": 95,
+      "type_base_font": "harmonia_sans_n4",
+      "type_body_size": 100,
+      "animations_enable": true,
+      "image_hover_enable": false,
+      "sale_tags_enable": true,
+      "sale_background_color": "#444444",
+      "sale_text_color": "#ffffff",
+      "show_promo_modal": false,
+      "promo_dev_mode": false,
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Open Sans",
+      "checkout_body_font": "Open Sans",
+      "checkout_accent_color": "#248232",
+      "checkout_button_color": "#268686",
+      "checkout_error_color": "#8b3f3f",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "show_header_social": true,
+            "show_header_search": true,
+            "show_account": true,
+            "message": false,
+            "color_bg": "#101A26",
+            "color_text": "#EEEEEE",
+            "menu_primary": "main-menu"
+          }
+        },
+        "product": {
+          "type": "product",
+          "blocks": {
+            "product-tab-1": {
+              "type": "tab_richtext",
+              "settings": {
+                "title": "First"
+              }
+            },
+            "product-tab-2": {
+              "type": "tab_richtext",
+              "settings": {
+                "title": "Second"
+              }
+            },
+            "product-tab-3": {
+              "type": "tab_richtext",
+              "settings": {
+                "title": "Third"
+              }
+            }
+          },
+          "block_order": [
+            "product-tab-1",
+            "product-tab-2",
+            "product-tab-3"
+          ],
+          "settings": {
+            "image_layout": "stacked",
+            "product_sticky_enable": true,
+            "show_breadcrumbs": true,
+            "show_share_buttons": true,
+            "product_show_vendor": false,
+            "show_payment_button": true,
+            "tabs_enable": true
+          }
+        },
+        "page-contact": {
+          "type": "page-contact",
+          "blocks": {
+            "contact-1": {
+              "type": "text",
+              "settings": {
+                "title": "Full Name"
+              }
+            },
+            "contact-2": {
+              "type": "email",
+              "settings": {
+                "title": "Email"
+              }
+            },
+            "contact-3": {
+              "type": "body",
+              "settings": {
+                "title": "Message"
+              }
+            },
+            "contact-4": {
+              "type": "spacer",
+              "settings": {
+                "line": false
+              }
+            },
+            "contact-5": {
+              "type": "formHeading",
+              "settings": {
+                "title": "Optional:"
+              }
+            },
+            "contact-6": {
+              "type": "checkbox",
+              "settings": {
+                "title": "Subscribe to the newsletter"
+              }
+            },
+            "contact-7": {
+              "type": "select",
+              "settings": {
+                "title": "How did you hear about us:",
+                "label-one": "- Pick an option -",
+                "label-two": "Instagram \/ Facebook",
+                "label-three": "Web search",
+                "label-four": "Print Ad",
+                "label-five": "From a friend",
+                "label-six": ""
+              }
+            }
+          },
+          "block_order": [
+            "contact-1",
+            "contact-2",
+            "contact-3",
+            "contact-4",
+            "contact-5",
+            "contact-6",
+            "contact-7"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "index-hero": {
+          "type": "index-hero",
+          "settings": {
+            "parallax": false,
+            "height": "screen-height-two-thirds",
+            "overlay_opacity": 0,
+            "flex_align": "align--middle-center",
+            "text_color": "text-dark"
+          }
+        },
+        "index-image-with-text": {
+          "type": "index-image-with-text",
+          "settings": {
+            "color": "#2d2d2d",
+            "background": "#f5f2ef",
+            "height": "screen-height-one-half",
+            "overlay_opacity": 0
+          }
+        },
+        "index-map": {
+          "type": "index-map",
+          "settings": {}
+        },
+        "index-slideshow": {
+          "type": "index-slideshow",
+          "blocks": {
+            "index-slideshow-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "index-slideshow-1": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "index-slideshow-0",
+            "index-slideshow-1"
+          ],
+          "settings": {
+            "autoplay": false,
+            "autoplay_speed": 8,
+            "height": "screen-height-one-half"
+          }
+        },
+        "index-collections-list": {
+          "type": "index-collections-list",
+          "blocks": {
+            "index-collections-list-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "index-collections-list-1": {
+              "type": "collection",
+              "settings": {}
+            },
+            "index-collections-list-2": {
+              "type": "collection",
+              "settings": {}
+            },
+            "index-collections-list-3": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "index-collections-list-0",
+            "index-collections-list-1",
+            "index-collections-list-2",
+            "index-collections-list-3"
+          ],
+          "settings": {
+            "title": "Collections"
+          }
+        },
+        "index-background-video": {
+          "type": "index-background-video",
+          "settings": {
+            "overlay_opacity": 65
+          }
+        },
+        "index-look": {
+          "type": "index-look",
+          "blocks": {
+            "index-look-0": {
+              "type": "product",
+              "settings": {}
+            },
+            "index-look-1": {
+              "type": "product",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "index-look-0",
+            "index-look-1"
+          ],
+          "settings": {}
+        },
+        "index-testimonials": {
+          "type": "index-testimonials",
+          "blocks": {
+            "index-testimonial-0": {
+              "type": "testimonial",
+              "settings": {
+                "title": "Mark Corrigan"
+              }
+            },
+            "index-testimonial-1": {
+              "type": "testimonial",
+              "settings": {
+                "title": "Jeremy Usborne"
+              }
+            }
+          },
+          "block_order": [
+            "index-testimonial-0",
+            "index-testimonial-1"
+          ],
+          "settings": {}
+        },
+        "index-products": {
+          "type": "index-products",
+          "settings": {}
+        },
+        "index-blog": {
+          "type": "index-blog",
+          "settings": {}
+        },
+        "index-rich-text": {
+          "type": "index-rich-text",
+          "settings": {}
+        },
+        "index-newsletter": {
+          "type": "index-newsletter",
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "index-hero",
+        "index-collections-list",
+        "index-image-with-text",
+        "index-products",
+        "index-testimonials",
+        "index-map",
+        "index-background-video",
+        "index-rich-text",
+        "index-slideshow",
+        "index-blog",
+        "index-look",
+        "index-newsletter"
+      ]
+    }
+  }
+}

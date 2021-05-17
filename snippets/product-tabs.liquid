@@ -1,0 +1,138 @@
+<!-- /snippets/product-tabs.liquid -->
+
+{%- assign tab_headings = "" -%}
+{%- assign tab_contents = "" -%}
+{%- assign product_description_split = product.description | replace: '<p>[split]</p>', '[split]' | replace: '[split]', '' | replace: '<h6></h6>', '' -%}
+
+{%- for block in section.blocks -%}
+  {%- if block.type == "tab_description" -%}
+    {% comment %}
+      Replace the heading deliminator with a string that is highly unlikely to occur naturally [!ヽ(´ー｀)/!]
+    {% endcomment %}
+    {%- assign product_description_split = product_description_split | replace: '<h6>', '[!ヽ(´ー｀)/!]' |  replace: '</h6>', '[!ヽ(´ー｀)/!]' | split: '[!ヽ(´ー｀)/!]' -%}
+    {%- for item in product_description_split -%}
+      {% comment %}
+        The zero item is the product description, after that tab headings are odd and contents are even.
+      {% endcomment %}
+      {%- assign odd_mod = forloop.index0 | modulo:2 -%}
+      {%- if odd_mod == 0 -%}
+        {%- unless forloop.index0 == 0 -%}
+          {%- assign tab_contents = tab_contents | append: item | append: '[!ヽ(´ー｀)/!]' -%}
+        {%- endunless -%}
+      {%- endif -%}
+      {%- if odd_mod == 1 -%}
+        {%- assign tab_headings = tab_headings | append: item | append: '[!ヽ(´ー｀)/!]' -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign tab_headings = tab_headings | split: '[!ヽ(´ー｀)/!]' -%}
+{%- assign tab_contents = tab_contents | split: '[!ヽ(´ー｀)/!]' -%}
+
+{% assign tab1_description = product.metafields.accentuate.tab_1 %}
+{% assign tab2_description = product.metafields.accentuate.tab_2 %}
+{% assign tab3_description = product.metafields.accentuate.tab_3 %}
+{% assign tab4_description = product.metafields.accentuate.tab_4 %}
+{% assign tab5_description = product.metafields.accentuate.tab_5 %}
+
+{% if tab1_description != blank or tab2_description != blank or tab3_description != blank or tab4_description != blank or tab5_description != blank  %}
+<div class="product-tabs">
+  <ul class="tabs product-tabs-title">
+    {%- assign count = 0 -%}
+    {% for block in section.blocks %}
+    
+    {% if count == 0 and tab1_description != blank %}
+    <li class="tab-link tab-link-{% increment foo %}" data-tab="{% increment foo1 %}" data-block-id="product-tab-{% increment foo2 %}" tabindex="0" {{ block.shopify_attributes }}>{{ block.settings.title }}</li>
+    {% elsif count == 1 and tab2_description != blank %}
+    <li class="tab-link tab-link-{% increment foo %}" data-tab="{% increment foo1 %}" data-block-id="product-tab-{% increment foo2 %}" tabindex="0" {{ block.shopify_attributes }}>{{ block.settings.title }}</li>
+    {% elsif count == 2 and tab3_description != blank %}
+    <li class="tab-link tab-link-{% increment foo %}" data-tab="{% increment foo1 %}" data-block-id="product-tab-{% increment foo2 %}" tabindex="0" {{ block.shopify_attributes }}>{{ block.settings.title }}</li>
+    {% elsif count == 3 and tab4_description != blank %}
+    <li class="tab-link tab-link-{% increment foo %}" data-tab="{% increment foo1 %}" data-block-id="product-tab-{% increment foo2 %}" tabindex="0" {{ block.shopify_attributes }}>{{ block.settings.title }}</li>
+    {% elsif count == 4 and tab5_description != blank %}
+    <li class="tab-link tab-link-{% increment foo %}" data-tab="{% increment foo1 %}" data-block-id="product-tab-{% increment foo2 %}" tabindex="0" {{ block.shopify_attributes }}>{{ block.settings.title }}</li>
+    {% endif %}
+    
+    {%- assign count = count | plus: 1 -%}
+    
+    {% endfor %}
+  </ul>
+  {%- assign count = 0 -%}
+  {% for block in section.blocks %}
+
+  {% if count == 0 and tab1_description != blank  %}
+  <div class="rte tab-content tab-content-{% increment foo4 %}">
+    {{ tab1_description }}
+  </div>
+  {% elsif count == 1 and tab2_description != blank  %}
+  <div class="rte tab-content tab-content-{% increment foo4 %}">
+    {{ tab2_description }}
+  </div>
+  {% elsif count == 2 and tab3_description != blank  %}
+  <div class="rte tab-content tab-content-{% increment foo4 %}">
+    {{ tab3_description }}
+  </div>
+  {% elsif count == 3 and tab4_description != blank  %}
+  <div class="rte tab-content tab-content-{% increment foo4 %}">
+    {{ tab4_description }}
+  </div>
+  {% elsif count == 4 and tab5_description != blank  %}
+  <div class="rte tab-content tab-content-{% increment foo4 %}">
+    {{ tab5_description }}
+  </div>
+  {% endif %}
+
+  {%- assign count = count | plus: 1 -%}
+  {% endfor %}
+</div>
+<div class="product-accordion">
+  <div class="accordion">
+    {%- assign count = 0 -%}
+    {%- for block in section.blocks -%}
+    {% if count == 0 and tab1_description != blank %}
+    <p class="accordion-toggle" data-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+      {{ block.settings.title }}
+      <span class="oi small accordion__icon" data-glyph="chevron-right"></span>
+    </p>
+    <div class="rte accordion-content">
+      {{ tab1_description }}
+    </div>
+    {% elsif count == 1 and tab2_description != blank %}
+    <p class="accordion-toggle" data-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+      {{ block.settings.title }}
+      <span class="oi small accordion__icon" data-glyph="chevron-right"></span>
+    </p>
+    <div class="rte accordion-content">
+      {{ tab2_description }}
+    </div>
+    {% elsif count == 2 and tab3_description != blank %}
+    <p class="accordion-toggle" data-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+      {{ block.settings.title }}
+      <span class="oi small accordion__icon" data-glyph="chevron-right"></span>
+    </p>
+    <div class="rte accordion-content">
+      {{ tab3_description }}
+    </div>
+    {% elsif count == 3 and tab4_description != blank %}
+    <p class="accordion-toggle" data-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+      {{ block.settings.title }}
+      <span class="oi small accordion__icon" data-glyph="chevron-right"></span>
+    </p>
+    <div class="rte accordion-content">
+      {{ tab4_description }}
+    </div>
+    {% elsif count == 4 and tab5_description != blank %}
+    <p class="accordion-toggle" data-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+      {{ block.settings.title }}
+      <span class="oi small accordion__icon" data-glyph="chevron-right"></span>
+    </p>
+    <div class="rte accordion-content">
+      {{ tab5_description }}
+    </div>
+    {% endif %}
+    {%- assign count = count | plus: 1 -%}
+    {%- endfor -%}
+  </div>
+</div>
+{% endif %}

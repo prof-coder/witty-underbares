@@ -1,0 +1,39 @@
+<!-- /snippets/product-form.liquid -->
+
+{% assign enable_swatches = settings.color_swatches %}
+{% assign enable_variant_lines = settings.variant_lines %}
+
+ {% form 'product', product, class: 'product-form', data-swatches: enable_swatches %}
+  {% unless product.has_only_default_variant %}
+    <div class="product__selectors swatch--{{ product.id }}">
+
+      {%- if enable_variant_lines -%}
+        {%- include 'product-variants' -%}
+      {%- else -%}
+        {% for option in product.options_with_values %}
+          {%- if enable_swatches -%}
+            {%- assign downcased_option = option.name | downcase -%}
+            {%- if downcased_option contains 'color' or downcased_option contains 'colour' -%}
+              {%- include 'product-option--color-swatch' -%}
+            {%- else -%}
+              {%- include 'product-option' -%}
+            {%- endif -%}
+          {%- else -%}
+            {%- include 'product-option' -%}
+          {%- endif -%}
+        {% endfor %}
+      {% endif %}
+    </div>
+  {% endunless %}
+
+  <select name="id" class="no-js" data-product-select>
+    {% for variant in product.variants %}
+      <option
+        {% if variant == current_variant %}selected="selected"{% endif %}
+        {% unless variant.available %}disabled="disabled"{% endunless %}
+        value="{{ variant.id }}">
+          {{ variant.title }}
+      </option>
+    {% endfor %}
+  </select>
+{% endform %}

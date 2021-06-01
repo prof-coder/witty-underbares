@@ -510,7 +510,7 @@ $svg-select-icon: #{'{{ "ico-select.svg" | asset_url }}'};
  * Core Owl CAROUSEL
  * v1.3.2
  */
- 
+
 .owl-carousel .owl-wrapper:after {
   content: ".";
   display: block;
@@ -1192,7 +1192,7 @@ https://flickity.metafizzy.co
     }
   }
 }
-  
+
 /*============================================================================
   #Magnific Popup CSS (used on password page)
 ==============================================================================*/
@@ -1371,7 +1371,7 @@ button::-moz-focus-inner {
   right: -6px;
   text-align: right;
   padding-right: 6px;
-  width: 30px; 
+  width: 30px;
   svg {
     pointer-events: none;
   }
@@ -8412,7 +8412,7 @@ $colorGiftBorder: $color_site_border;
  */
 
 .index-newsletter {
-	
+
 	.hero__content {
 		margin: 0;
 		padding-left: 60px;
@@ -9425,7 +9425,7 @@ $colorGiftBorder: $color_site_border;
   .sharing {
     padding: 20px 0;
   }
-  
+
   a {
     svg {
       fill: #fff
@@ -10232,29 +10232,31 @@ script,
   }
 }
 
+.product__submit--spb .BIS_trigger {
+  display: none;
+  width: 100%;
+  background: #88aacd;
+  color: #fff;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+.bis-reset {
+  display: none;
+}
+
 .variant--soldout,
 .variant--unavailabe {
-  .product__submit__add,
-  .product__submit__add:hover {
-    border-color: darken($color_bg, 40%);
-    background-color: darken($color_bg, 10%);
-    color: darken($color_bg, 40%);
-    cursor: not-allowed;
-  }
+  .product__submit--spb {
+    margin-right: 0;
 
-  .shopify-payment-button {
-    position: relative;
-    pointer-events: none;
+    .product__submit__buttons {
+      display: none;
+    }
 
-    &::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: rgba(0, 0, 0, 0);
-      z-index: 2;
+    .BIS_trigger {
+      display: block;
     }
   }
 }
@@ -11082,11 +11084,11 @@ label.error {
     }
 
     .cart-extra { margin: 10px 0 0; }
-    .btn { max-width: 262px; }    
+    .btn { max-width: 262px; }
     small.additional-checkout { width: 262px; }
   }
-  .additional-checkout-buttons { 
-    width: 262px; 
+  .additional-checkout-buttons {
+    width: 262px;
 
     [data-shopify-buttoncontainer] > div {height: auto !important; }
   }
@@ -11095,12 +11097,12 @@ label.error {
   .cart {
     margin: 20px auto;
 
-    .remove { display: none; } 
+    .remove { display: none; }
   }
 
   .info__subtotal { text-align: right; }
-  .info__tax { 
-    text-align: center; 
+  .info__tax {
+    text-align: center;
     margin-bottom: 10px;
   }
   .cart-info-container {
@@ -11132,7 +11134,7 @@ label.error {
 
     table tbody tr:first-child > td { border-top: 1px solid $color_site_border; }
   }
-    
+
   .cart-info-container {
     .proceed,
     .cart-section-options {
@@ -14729,8 +14731,8 @@ button.mfp-close {
     margin-top: 0;
   }
 
-  .quicklook { 
-    text-align: left; 
+  .quicklook {
+    text-align: left;
   }
 }
 
@@ -14748,7 +14750,7 @@ button.mfp-close {
     font-family: "Poppins" !important;
   	text-transform: capitalize !important;
   	font-size: 16px !important;
-}  
+}
 
 .yotpo .text-m {
     font-size: 16px !important;

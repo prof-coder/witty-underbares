@@ -10391,6 +10391,10 @@ video::-webkit-media-controls-panel {
   font-size: 1.05rem * $font-adjust-body;
   text-transform: uppercase;
 }
+.shopify-payment-button .shopify-payment-button__button--unbranded:hover {
+  background: #3D5478 !important;
+  color: #FFFFFB !important;
+}
 
 .shopify-payment-button .shopify-payment-button__more-options {
   font-weight: bold;
@@ -13541,16 +13545,23 @@ ul.tabs > li {
   display: inline-block;
   padding: 10px 0px;
   margin: 0rem 1.5rem 0rem 0rem;
-  font-weight: $font-weight-body;
+  font-weight: bold; /*$font-weight-body;*/
   cursor: pointer;
   vertical-align: bottom;
   border-bottom: 3px solid transparent;
 }
+
 ul.tabs > li.current{
   border-bottom: 3px solid $color_site_border;
   color: $color_link_hover;
   font-weight: $font-weight-body-bold;
 }
+@media (min-width: 426px) {
+  ul.tabs > li.current {
+    border-bottom: 3px solid #88aacd;
+  }
+}
+
 .tab-content{
   display: none;
   padding: 15px 15px 15px 0px;
@@ -13569,6 +13580,7 @@ ul.tabs > li.current{
   padding: 1rem 0;
   margin-bottom: auto;
   color: $color_text;
+  font-weight: bold;
 }
 .accordion-content {
   display: none;
@@ -13581,10 +13593,10 @@ ul.tabs > li.current{
 .accordion .accordion__icon{
   float: right;
   margin-top: 3px;
-  color: $color_site_border;
+  color: #000; /*$color_site_border;*/
   transition: all 0.3s ease-in-out;
   &.rotate-90{
-    transform: rotate(450deg);
+    transform: rotate(225deg);
   }
 }
 

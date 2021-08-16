@@ -1,11 +1,11 @@
 <!-- /templates/collection-template.liquid -->
 
 {% section 'collectionotamazon' %}
-
+{% comment %}
 {%- section 'notamazon-image-with-text' -%}
 {%- section 'notamazon-rich-text' -%}
 {%- section 'notamazon-columns' -%}
-
+{% endcomment %}
 <script>
   window.theme.collectionSort = {
     sortBy: '{{ collection.sort_by | default: collection.default_sort_by }}'

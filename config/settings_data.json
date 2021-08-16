@@ -91,12 +91,16 @@
               "title": "",
               "title_1": "",
               "button_1": "",
+              "link_1": "",
               "title_2": "",
               "button_2": "",
+              "link_2": "",
               "title_3": "",
               "button_3": "",
+              "link_3": "",
               "title_4": "",
-              "button_4": ""
+              "button_4": "",
+              "link_4": ""
             }
           }
         },
@@ -113,11 +117,12 @@
           "show_header_social": true,
           "show_header_search": true,
           "show_account": true,
-          "message": false,
-          "message_text": "",
+          "message": true,
+          "message_text": "Free shipping on orders over $150 | Free exchanges and easy returns",
           "message_detail": "",
+          "message_link": "",
           "color_bg": "#88aacd",
-          "color_text": "#ffffff",
+          "color_text": "#fffffb",
           "menu_primary": "main-menu"
         }
       },
@@ -202,13 +207,13 @@
       "index-hero": {
         "type": "index-hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Patricia_-_Homepage.gif",
+          "image": "shopify:\/\/shop_images\/IMB_klPrut.gif",
           "parallax": false,
           "height": "screen-height-full",
           "overlay_opacity": 40,
           "overlay_color": "#88aacd",
-          "title": "Comfy Essentials",
-          "description": "Made with love in the USA",
+          "title": "Undergarments For A New Era",
+          "description": "",
           "flex_align": "align--middle-center",
           "text_color": "text-light",
           "transparent": true,
@@ -229,6 +234,7 @@
           "overlay_opacity": 40,
           "overlay_color": "#c7d9f0",
           "button_text": "",
+          "button_link": "",
           "video_link": "",
           "button_type": "filled",
           "button_colors": "#ffffff"
@@ -263,7 +269,8 @@
           "logo": "shopify:\/\/shop_images\/UB-Madewithlove-Azure.png",
           "title": "",
           "text": "",
-          "button_text": ""
+          "button_text": "",
+          "button_url": ""
         }
       },
       "footer": {
@@ -392,6 +399,7 @@
               "title": "",
               "text": "<p>We put you first by learning what you actually want in your top drawer next. We go from there.<\/p>",
               "button_label": "",
+              "button_link": "",
               "enable_video": false,
               "video_link": ""
             }
@@ -402,8 +410,9 @@
               "enable_image": true,
               "image": "shopify:\/\/shop_images\/bts.png",
               "title": "",
-              "text": "<p>We work with the best partners to design better undergarments. <a href=\"\/pages\/our-makers\" title=\"our makers\">Meet our makers<\/a>.<\/p>",
+              "text": "<p>We work with the best partners in the USA to design better undergarments. <a href=\"\/pages\/our-makers\" title=\"our makers\">Meet our makers<\/a>.<\/p>",
               "button_label": "",
+              "button_link": "",
               "enable_video": false,
               "video_link": ""
             }
@@ -416,6 +425,7 @@
               "title": "",
               "text": "<p>Together, we rewrite the narrative by showing the world that we&#x27;ll choose our shape and not let anyone choose it for us. There&#x27;s no need to be alarmed, world! <\/p>",
               "button_label": "",
+              "button_link": "",
               "enable_video": false,
               "video_link": ""
             }
@@ -517,7 +527,6 @@
       },
       "1605017055c573a7ad": {
         "type": "index-slideshow",
-        "disabled": true,
         "blocks": {
           "1605017055c573a7ad-0": {
             "type": "image",
@@ -603,19 +612,112 @@
           "scroll": "horizontally",
           "arrows_style": "dark"
         }
+      },
+      "about-image-with-text": {
+        "type": "about-image-with-text",
+        "settings": {
+          "title": "We do better. So you can do you.",
+          "content": "<p>We believe in embracing our individuality. Our pared-down designs organically move with you, not against you. No more unnatural-looking padding or painful wires, fussy strap adjusters or compressive smoothing. Go ahead, bare your best self.<\/p>",
+          "color": "#282C2E",
+          "background": "#F7F9FA",
+          "height": "screen-height-one-half",
+          "image_alignment": "natural",
+          "overlay_opacity": 40,
+          "overlay_color": "#fff",
+          "button_text": "",
+          "video_link": "",
+          "button_type": "filled",
+          "button_colors": "#FFF"
+        }
+      },
+      "about-rich-text": {
+        "type": "about-rich-text",
+        "settings": {
+          "title": "",
+          "text": "",
+          "button_text": ""
+        }
+      },
+      "about-columns": {
+        "type": "about-columns",
+        "blocks": {
+          "about-columns-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "enable_video": false,
+              "video_link": ""
+            }
+          },
+          "about-columns-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "enable_video": false,
+              "video_link": ""
+            }
+          },
+          "about-columns-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "enable_video": false,
+              "video_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "about-columns-0",
+          "about-columns-1",
+          "about-columns-2"
+        ],
+        "settings": {
+          "align_text": "text-left",
+          "equalize_height": true,
+          "photo_aspect_ratio": 1
+        }
+      },
+      "16269740201cc621e1": {
+        "type": "index-image-with-text",
+        "settings": {
+          "title": "Introducing: The High-Waisted Thong",
+          "content": "<p>We heard your requests for a comfy-sexy-feminine-modern high-waisted thong. Join our waitlist so you can be the first to shop.<\/p>",
+          "color": "#fffffb",
+          "background": "#9cadc4",
+          "image": "shopify:\/\/shop_images\/4.jpg",
+          "height": "screen-height-two-thirds",
+          "image_alignment": "reverse",
+          "overlay_opacity": 15,
+          "overlay_color": "#ffffff",
+          "button_text": "Sign me up!",
+          "button_link": "shopify:\/\/products\/the-thong",
+          "video_link": "",
+          "button_type": "filled",
+          "button_colors": "#ffffff"
+        }
       }
     },
     "content_for_index": [
       "index-hero",
       "1588794886365",
+      "16269740201cc621e1",
       "161410316519e56e25",
       "index-image-with-text",
       "1588797087685",
       "1593360333829",
-      "index-rich-text",
+      "1589392233860",
       "1605017055c573a7ad",
-      "1591729990346",
-      "1589392233860"
+      "index-rich-text",
+      "1591729990346"
     ]
   },
   "presets": {

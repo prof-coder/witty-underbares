@@ -298,6 +298,12 @@
 
 {%- endpaginate -%}
 
+<script>
+  window.theme.collectionSort = {
+    sortBy: '{{ collection.sort_by | default: collection.default_sort_by }}'
+  }
+</script>
+
 {% schema %}
   {
     "name": "Collection page",

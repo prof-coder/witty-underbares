@@ -1,0 +1,11 @@
+{
+  "name": "Collection Notamazon",
+  "sections": {
+    "collectionnotamazon": {
+      "type": "collectionotamazon"
+    }
+  },
+  "order": [
+    "collectionnotamazon"
+  ]
+}

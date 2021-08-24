@@ -1,0 +1,26 @@
+{
+  "sections": {
+    "page-content": {
+      "type": "page-content",
+      "settings": {}
+    },
+    "logo-list": {
+      "type": "index-logo-list",
+      "settings": {}
+    },
+    "image-with-text": {
+      "type": "index-image-with-text",
+      "settings": {}
+    },
+    "products": {
+      "type": "index-products",
+      "settings": {}
+    }
+  },
+  "order": [
+    "page-content",
+    "logo-list",
+    "image-with-text",
+    "products"
+  ]
+}

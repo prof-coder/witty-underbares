@@ -1,14 +1,16 @@
 {
-  "name": "Product",
   "sections": {
     "product": {
-      "type": "product"
+      "type": "product",
+      "settings": {}
     },
     "related": {
-      "type": "related"
+      "type": "related",
+      "settings": {}
     },
     "product-settings": {
-      "type": "product-settings"
+      "type": "product-settings",
+      "settings": {}
     }
   },
   "order": [

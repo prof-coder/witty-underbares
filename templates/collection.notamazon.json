@@ -1,8 +1,8 @@
 {
-  "name": "Collection Notamazon",
   "sections": {
     "collectionnotamazon": {
-      "type": "collectionotamazon"
+      "type": "collectionotamazon",
+      "settings": {}
     }
   },
   "order": [

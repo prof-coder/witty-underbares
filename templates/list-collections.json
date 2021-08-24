@@ -1,8 +1,8 @@
 {
-  "name": "List Collections",
   "sections": {
     "list-collections": {
-      "type": "list-collections"
+      "type": "list-collections",
+      "settings": {}
     }
   },
   "order": [

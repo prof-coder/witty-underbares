@@ -1,0 +1,26 @@
+{
+  "sections": {
+    "page-content": {
+      "type": "page-content",
+      "settings": {}
+    },
+    "image-with-text": {
+      "type": "about-image-with-text",
+      "settings": {}
+    },
+    "rich-text": {
+      "type": "about-rich-text",
+      "settings": {}
+    },
+    "columns": {
+      "type": "about-columns",
+      "settings": {}
+    }
+  },
+  "order": [
+    "page-content",
+    "image-with-text",
+    "rich-text",
+    "columns"
+  ]
+}

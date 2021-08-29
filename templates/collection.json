@@ -2,7 +2,31 @@
   "sections": {
     "collection": {
       "type": "collection",
-      "settings": {}
+      "settings": {
+        "enable_sort": false,
+        "filter_mode": "tag",
+        "show_title": true,
+        "show_description": true,
+        "text_color": "text-light",
+        "flex_align": "align--middle-center",
+        "transparent": true,
+        "show_image": true,
+        "banner_layout": "overlay",
+        "height": "screen-height-one-third",
+        "parallax": false,
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "grid": 4,
+        "enable_reviews": false,
+        "show_featured_image": false,
+        "featured_heading": "Use this image showcase promotional content.",
+        "featured_text": "<p>Elaborate on it with rich text<\/p><p><\/p>",
+        "featured_button_text": "Learn More",
+        "featured_button_link": "",
+        "featured_color_text": "#ffffff",
+        "featured_color_overlay": "#222222",
+        "featured_overlay_opacity": 10
+      }
     }
   },
   "order": [

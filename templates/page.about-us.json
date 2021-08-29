@@ -6,15 +6,41 @@
     },
     "image-with-text": {
       "type": "about-image-with-text",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "title": "Image with text",
+        "content": "<p>This area is used to showcase a product, collection, or your brand.<\/p>",
+        "color": "#282C2E",
+        "background": "#F7F9FA",
+        "height": "screen-height-one-half",
+        "image_alignment": "natural",
+        "overlay_opacity": 15,
+        "overlay_color": "#fff",
+        "button_text": "Click here",
+        "button_link": "",
+        "video_link": "",
+        "button_type": "filled",
+        "button_colors": "#FFF"
+      }
     },
     "rich-text": {
       "type": "about-rich-text",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "title": "Rich text",
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "button_text": "Learn More",
+        "button_url": ""
+      }
     },
     "columns": {
       "type": "about-columns",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "align_text": "text-left",
+        "equalize_height": true,
+        "photo_aspect_ratio": 1
+      }
     }
   },
   "order": [

@@ -2,11 +2,41 @@
   "sections": {
     "product": {
       "type": "product",
-      "settings": {}
+      "blocks": {
+        "7117fa09-df87-41ad-842f-06a072222423": {
+          "type": "tab_richtext",
+          "disabled": true,
+          "settings": {
+            "title": "Text tab"
+          }
+        }
+      },
+      "block_order": [
+        "7117fa09-df87-41ad-842f-06a072222423"
+      ],
+      "settings": {
+        "image_layout": "stacked",
+        "product_sticky_enable": true,
+        "show_breadcrumbs": true,
+        "show_share_buttons": true,
+        "product_show_vendor": false,
+        "show_payment_button": true,
+        "show_cart_bar": true,
+        "cart_bar_position": "bottom",
+        "tabs_enable": false,
+        "enable_video_looping": false
+      }
     },
     "related": {
       "type": "related",
-      "settings": {}
+      "settings": {
+        "related_products_enable": true,
+        "limit": 4,
+        "product_recommendations_heading": "More comfy essentials",
+        "show_recently_viewed": true,
+        "product_recently_limit": 4,
+        "product_recently_heading": "Recently viewed styles"
+      }
     },
     "product-settings": {
       "type": "product-settings",

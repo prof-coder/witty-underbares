@@ -6,15 +6,44 @@
     },
     "logo-list": {
       "type": "index-logo-list",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "title": "Logo list",
+        "bg_color": "#fafafa",
+        "logo_opacity": 50
+      }
     },
     "image-with-text": {
       "type": "index-image-with-text",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "title": "Image with text",
+        "content": "<p>This area is used to showcase a product, collection, or your brand.<\/p>",
+        "color": "#282C2E",
+        "background": "#F7F9FA",
+        "height": "screen-height-one-half",
+        "image_alignment": "natural",
+        "overlay_opacity": 15,
+        "overlay_color": "#fff",
+        "button_text": "Click here",
+        "button_link": "",
+        "video_link": "",
+        "button_type": "filled",
+        "button_colors": "#FFF"
+      }
     },
     "products": {
       "type": "index-products",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "featured_collection": "",
+        "title": "Featured collection",
+        "grid": 4,
+        "rows": 1,
+        "enable_reviews": false,
+        "scroll": "horizontally",
+        "arrows_style": "dark"
+      }
     }
   },
   "order": [
